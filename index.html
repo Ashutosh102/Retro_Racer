@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="flag.png" type="image" sizes="16x16">
+    <title>Retro Racer</title>
+    
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <center>
+      <img
+        src="Copy of Black, White and Pink Cube Kyobi Games Logo.png"
+        height="170"
+        width="170"
+      />
+    </center>
+    <div id="game">
+      <div id="sky"></div>
+      <div id="mountains">
+        <div class="mountain"></div>
+        <div class="mountain"></div>
+        <div class="mountain"></div>
+        <div class="mountain"></div>
+      </div>
+      <div id="terrain"></div>
+      <div id="fog" class="hidden"></div>
+      <canvas id="road"></canvas>
+      <div id="cars"></div>
+      <div id="car" class="player car"></div>
+      <div id="ui">
+        <div id="panel">
+          <div id="km"><a></a><a>0</a><a>0</a><a>0</a><a>0</a><a>0</a></div>
+          <div id="lap"><a>1</a></div>
+          <div id="position"><a>P</a><a>2</a><a>0</a><a>0</a></div>
+        </div>
+      </div>
+    </div>
+    <p>
+      <button id="left">◀️</button>
+      <button id="up">⏏️</button>
+      <button id="right">▶️</button>
+    </p>
+    <p>
+      <button id="click" style="color: rgb(13, 13, 128)">
+        Click to start!
+      </button>
+    </p>
+    <p>
+      Left/Right Arrows or A/D to steer and<br />
+      Up Arrow, W or Space to accelerate
+    </p>
+    <br />
+    <center>
+      <h2 style="color: gold">
+        &copy Copyright
+        <a
+          class="btn btn-primary"
+          href="https://github.com/Ashutosh102"
+          role="button"
+           style="color:rgb(255, 136, 0)">Ashutosh</a
+        >
+      </h2>
+    </center>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
